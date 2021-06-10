@@ -35,8 +35,6 @@ namespace fukuvHensu
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -89,24 +87,6 @@ namespace fukuvHensu
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(112, 168);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "1";
-            this.textBox1.Visible = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(112, 215);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "0";
-            this.textBox2.Visible = false;
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -117,8 +97,6 @@ namespace fukuvHensu
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -138,8 +116,6 @@ namespace fukuvHensu
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Timer timer1;
     }
 }

@@ -44,6 +44,12 @@ namespace fukuvHensu
             vy = 10;
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            vx = 0;
+            vy = 0;
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             vx = 10;
